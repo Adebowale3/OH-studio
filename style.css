@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "neue_montrealmedium";
+}
+
+img {
+  width: 550px;
+  height: 400px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+header {
+  display: flex;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 30px;
+}
+nav {
+  margin: auto;
+  background-color: #e8e5e480;
+  border-radius: 50px;
+  padding: 13px 5px;
+  box-shadow: 0 0 0.5px black;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: "neue_montreallight";
+}
+
+nav ul li a.active {
+  background-color: white;
+}
+
+.header-text {
+  text-align: center;
+}
+.header-text h1 {
+  font-size: 80px;
+  margin-top: 150px;
+}
+.channel {
+  text-align: center;
+  margin-top: 35px;
+}
+.channel ul li {
+  display: inline;
+  margin-right: 15px;
+}
+.channel .highlight {
+  background-color: #e8e5e480;
+  padding: 8px 12px;
+  border-radius: 50px;
+}
+
+main {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.work-together {
+  font-size: 25px;
+  text-align: center;
+  margin: 180px 0;
+}
+
+.work-together h2 a {
+  color: #7f7f7f;
+}
+
+.work-together h2 a:hover {
+  color: #aca4a180;
+}
+
+.contact-work-together {
+  text-align: center;
+  margin: 180px 0 260px 0;
+}
+.contact-work-together h1 {
+  font-size: 80px;
+}
+
+.contact-work-together h1 a {
+  color: #7f7f7f;
+}
+
+.contact-work-together h1 a:hover {
+  color: #aca4a180;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px 40px 30px;
+  font-family: "neue_montreallight";
+}
+.social a {
+  margin-right: 20px;
+  color: black;
+}
+
+.shop-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-btn button {
+  padding: 12px 20px;
+  position: fixed;
+  bottom: 8px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  font-family: "neue_montreallight";
+  font-size: 15px;
+}
+.shop-btn button i {
+  color: white;
+  padding-right: 10px;
+}
+
+/* Profile page styling */
+
+.profile-header-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 320px;
+}
+.profile-header-text h1 {
+  font-size: 80px;
+  margin-top: 150px;
+}
+.profile-header-text img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -10px;
+}
+.profile-image-container img {
+  width: 600px;
+  height: 650px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+
+.profile-image-container .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 170px;
+}
+
+.about-text {
+  width: 80%;
+}
+
+.profile-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-about .channel .highlight {
+  background-color: #e8e5e480;
+  padding: 8px 15px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.profile-about .about-text h1 {
+  margin: 50px 40px 80px 50px;
+  font-size: 50px;
+  text-align: center;
+  font-family: "neue_montrealmedium";
+}
+
+/*  */
+
+.experience {
+  margin-top: 100px;
+  font-family: "neue_montrealmedium";
+}
+
+.highlight {
+  display: inline-block;
+  background-color: #e8e5e480;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: #7f7f7f;
+  font-family: "neue_montreallight";
+}
+.experience .text h1 {
+  color: #7f7f7f;
+
+  margin: 30px 40px;
+  font-size: 50px;
+  text-align: center;
+  font-family: "neue_montrealmedium";
+}
+
+.exp-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 80px 0 80px;
+}
+
+.exp-info {
+  margin-bottom: 25px;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  width: 300px;
+  text-align: center;
+}
+
+.exp-info h4,
+.exp-info h2 {
+  margin-bottom: 16px;
+  font-family: "neue_montrealmedium";
+}
+
+.exp-info h4 {
+  color: #7f7f7f;
+  font-family: "neue_montreallight";
+}
+
+.client {
+  margin-top: 100px;
+}
+
+.client .text h1 {
+  margin: 30px 40px;
+  font-size: 50px;
+  text-align: center;
+  font-family: "neue_montrealmedium";
+}
+
+.client-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* text-align: center; */
+  margin: 100px 180px;
+}
+
+.client-info {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin-bottom: 20px;
+  /* box-sizing: border-box; */
+  width: 200px;
+  height: 200px;
+}
+
+.client-info img {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+
+.img-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.img-wrap img {
+  width: 550px;
+  height: 400px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  opacity: 1;
+}
+
+.img-overlay {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  transition: 0.5s ease;
+  width: 100%;
+  padding: 30px;
+}
+
+.img-wrap:hover img {
+  opacity: 0.3;
+  filter: blur(2px);
+}
+
+.img-wrap:hover .img-overlay {
+  opacity: 1;
+  
+}
+
+.img-wrap:hover .img-overlay .img-icon{
+
+  animation: fadeOutLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.img-icon {
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+.img-icon i {
+  font-size: 15px;
+  
+}
